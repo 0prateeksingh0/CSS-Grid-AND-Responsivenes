@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+.nestedbox {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border: 2px solid black;
+}
